@@ -1,0 +1,62 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identity Passport</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: left;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            max-width: 960px;
+            padding: 40px;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        h2 {
+            cursor: pointer; 
+        }
+        #text-container {
+            display: none; /* Initially hide the text container */
+            width: 50%; /* Set width to half of the page */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Identity Passport</h1>
+        <h2 onclick="toggleText()">P00001</h2>
+        <h3 onclick="toggleText()">P00002</h3>
+    </div>
+
+
+    <div id="text-container">
+        <p>This is the text content that will appear on the right half of the page.</p>
+    </div>
+
+    <script>
+        function toggleText() {
+            var textContainer = document.getElementById("text-container");
+            if (textContainer.style.display === "none") {
+                textContainer.style.display = "block"; // Display the text container
+            } else {
+                textContainer.style.display = "none"; // Hide the text container
+            }
+        }
+    </script>
+</body>
+</html>
+
+</body>
+</html>

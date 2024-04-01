@@ -1,0 +1,34 @@
+h1 {
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 0px;
+}
+h2 {
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 500;
+    font-size: 25px;
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
+p {
+  color: black;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 40px;
+  padding-bottom: 10px;
+  padding-top: 200px;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 900
+
+.source-code pro-<uniquifier> {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
